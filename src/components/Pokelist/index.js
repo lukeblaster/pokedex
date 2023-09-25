@@ -18,7 +18,7 @@ export default function Pokelist() {
     }, []);
     
     // Define as principais variáveis da aplicação com useState
-    const primeiro = Math.floor(Math.random() * (15 - 1 + 1)) + 1
+    const primeiro = Math.floor(Math.random() * (578 - 1 + 1)) + 1
     const [points, setPoints] = useState(0)
     const [highScore, setHighScore] = useState(0)
     const [selectedPokemon, setSelectedPokemon] = useState(null)
@@ -27,7 +27,7 @@ export default function Pokelist() {
 
     // Funções das regras de jogo
     const getRandomInt = () => {
-        const pokemonId = Math.floor(Math.random() * (15 - 1 + 1)) + 1;
+        const pokemonId = Math.floor(Math.random() * (578 - 1 + 1)) + 1;
 
         setRandomPokemonId(pokemonId)
         console.log("randomInt: " + randomPokemonId)

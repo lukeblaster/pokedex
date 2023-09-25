@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "pokeapi",
+    "name": "Pokeapi",
     "slug": "pokeapi",
     "version": "1.0.2",
     "orientation": "portrait",
@@ -26,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "555c4f1b-adb6-4b0a-a89f-cae737daacf3"
+      }
     }
   }
 }

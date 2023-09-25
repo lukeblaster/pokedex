@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         flex: 1
     },
     logo: {
-        marginTop: 20,
+        marginTop: 2,
         height: 120,
         width: 340
     }
